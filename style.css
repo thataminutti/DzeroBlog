@@ -6,7 +6,7 @@ body{
 }
 .S.Tech{
     width: 100%;
-    background-color: transparent;
+    background-color: rgb(255, 218, 51);
     height: 60px;
 }
 .S.Tech-1{
@@ -31,30 +31,32 @@ main, .content{
     float: right;
 }
 .header-2{
-    background-color: #cc9f0d;
+    background-color: transparent;
     width: 980px;
     margin: 0 auto;
     padding: 16px;
 }
 .ST-1 ul li{
     display: inline-block;
-    color: #818181;
+    color: #030303;
     margin-left: 15px;
     height: 50px;
 }
 .ST-1 ul li :hover{
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 3px solid #070707;
 }
 .ST-1 ul li a:hover{
-    color: #00bac6;
+    color: #030303;
 }
-.ST-1 ul li a{
-    color: #8b8b8b;
+.row{
+    margin-left: 210px;
+    color: #161615;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+    align-items: center;
 }
-.harry{
+.S.Tech{
     width: 70%; 
     float: left;
 }
@@ -66,19 +68,19 @@ main, .content{
 ul{
     padding: 0px !important;
 }
-.texto-destaque{
+.small-4 columns {
     text-align: center;
 }
-.texto-destaque h1{
-    color: #2ee49e;
+.small-4 columns h1{
+    color: #030303;
     font-size: 60px;
     text-transform: uppercase;
 }
-.texto-destaque strong{
-    color: #f8f8f8;
+.small-4 columns strong{
+    color: #050505;
 }
-.texto-destaque p{
-    color: #f8f8f8;
+.small-4 columns p{
+    color: #131212;
     font-size: 20px;
 }
 .col-3{
@@ -88,7 +90,7 @@ ul{
     float: left;
     position: relative;
 }
-.bloco-texto{
+.small-4 columns{
     margin-top: 4em;
 }
 h3{
